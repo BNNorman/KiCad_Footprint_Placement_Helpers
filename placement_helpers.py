@@ -1,6 +1,6 @@
 # Random placement helpers because I'm tired of using spreadsheets for doing this
 #
-# Kevin Cuzner
+# Original author: Kevin Cuzner
 #
 # install at C:\Program Files\KiCad\6.0\share\kicad\scripting\plugins
  
@@ -52,4 +52,4 @@ def place_circle_mils(refdes, start_angle, center, radius, component_offset=0, h
         part.SetOrientation(angle * -10)
         if hide_ref is not None:
             part.Reference().SetVisible(not hide_ref)
-    print ("Placement finished. Press F11 to refresh.")
+    Refresh()
