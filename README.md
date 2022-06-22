@@ -21,6 +21,8 @@ The original script only accepted mils as dimensions (who works in mils?) so I r
 
 The original script ends by asking to press F11 to referesh but that didn't work for me. I had to save-close and re-open the pcb to see the effects. When I find a better way (like an updateScreen() method I'll amend the script accordingly.
 
+I have added Refresh() to the end of the place_centre_mils() method to update the screen display - that's much better!
+
 # Installing the script
 
 On windows it needs to go in C:\Program Files\KiCad\6.0\share\kicad\scripting\plugins - you might need elevated permissions to put it there.
